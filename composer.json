@@ -1,0 +1,20 @@
+{
+  "name": "siler-examples/route-class",
+  "description": "Siler example of using classes as routes endpoints",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "leocavalcante",
+      "email": "lc@leocavalcante.com"
+    }
+  ],
+  "require": {
+    "leocavalcante/siler": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\": "src/"
+    }
+  }
+}
